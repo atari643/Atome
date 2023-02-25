@@ -1,4 +1,3 @@
-
 function Balle(x, y, col) {
     this.x = x;
     this.y = y;
