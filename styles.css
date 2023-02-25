@@ -1,0 +1,66 @@
+
+#proton .Balle{
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    border: red solid 2px;
+    position: absolute;
+    bottom: 98%;
+    margin-left: 4.5%;
+}
+#electron .Balle{
+    background-color: blue;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    border: blue solid 2px;
+    position: absolute;
+    bottom: 98%;
+    margin-left: 4.5%;
+}
+#neutron .Balle{
+    background-color: grey;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    border: grey solid 2px;
+    position: absolute;
+    bottom: 98%;
+    margin-left: 4.5%;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 98%;
+    display: flex;
+    justify-content: space-around;
+}
+.capsule{
+    width: 10%;
+    text-align: center;
+    border-top: 2px solid black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.center{
+    position: absolute;
+    top: 50%; left: 50%; 
+    transform: translate(-50%, -50%); 
+    
+}
+.noyau{
+    width: 200px;
+    height: 200px;
+    border: solid red 1px;
+    border-radius: 100px;
+}
+.space{
+    width: 600px;
+    height: 600px;
+    border: solid red 1px;
+    border-radius: 400px;
+}
